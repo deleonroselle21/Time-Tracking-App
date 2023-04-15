@@ -1,0 +1,130 @@
+.work__card{
+    background-color: hsl(15, 100%, 70%);
+    background-image:url("../../images/icon-work.svg");
+    background-position: top right 10px;
+    background-repeat: no-repeat;
+}
+.play__card{
+    background-color: hsl(195, 74%, 62%);
+    background-image:url("../../images/icon-play.svg");
+    background-position: top right 10px;
+    background-repeat: no-repeat;
+
+}
+.study__card{
+    background-color:hsl(348, 100%, 68%);
+    background-image:url("../../images/icon-study.svg");
+    background-position: top right 10px;
+    background-repeat: no-repeat;
+}
+.exercise__card{
+    background-color: hsl(145, 58%, 55%);
+    background-image:url("../../images/icon-exercise.svg");
+    background-position: top right 10px;
+    background-repeat: no-repeat;
+
+    
+}
+.social__card{
+    background-color:hsl(264, 64%, 52%);
+    background-image:url("../../images/icon-social.svg");
+    background-position: top right 10px;
+    background-repeat: no-repeat;
+
+}
+.selfcare__card{
+    background-color: hsl(43, 84%, 65%);
+   background-image:url("../../images/icon-self-care.svg");
+    background-repeat: no-repeat;
+    background-position: top right 10px;
+}
+.card__info{
+    padding:1rem;
+    display: grid;
+    position:absolute;
+    top:68px;
+ bottom: 0;
+   
+    width:255px;
+    height:199px;
+    background-color: #1C204B;
+   border-radius: 15px 15px 15px 15px;
+   overflow: hidden;
+}
+
+.card-title{
+    color:white;
+    font-weight: 500;
+    font-size:1.12rem;
+}
+.card-currentTime{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 300;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.card-prevTime{
+    color: #BBC0FF;
+    font-size: 0.93rem;
+    font-weight:400;
+    
+}
+.outside__container{    
+    position:relative;
+    height:100%;
+   
+   width:255px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.time-info{
+    display: grid;
+}
+/*
+.ouside__container img{
+    position:absolute;
+    right:0;
+    top:0;
+}
+*/
+@media only screen and (max-width: 375px) {
+    .outside__container{
+        width:327px;
+        height:160px;
+        
+    }
+    .time-info{
+        grid-template-columns: 1fr 2fr;
+        gap:1rem;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+       
+    }
+    .card__info{
+        height: 122px;
+        padding:1rem;
+        padding-bottom: 1rem;
+        width:100%;
+    }
+    .card-currentTime{
+        font-size:2rem;
+        font-weight: 300;
+    }
+    .card-prevTime{
+        font-size:0.93;
+        font-weight:500;
+        display: flex;
+        justify-content: end;
+    }
+    .card-title{
+        font-size:1.12;
+        font-weight:500;
+
+    }
+
+}
