@@ -42,7 +42,7 @@
     padding:1rem;
     display: grid;
     position:absolute;
-    top:68px;
+    top:50px;
  bottom: 0;
    
     width:255px;
@@ -56,6 +56,7 @@
     color:white;
     font-weight: 500;
     font-size:1.12rem;
+    flex:1;
 }
 .card-currentTime{
     color: white;
@@ -67,7 +68,20 @@
     color: #BBC0FF;
     font-size: 0.93rem;
     font-weight:400;
+
     
+}
+.title__container{
+    display: flex;
+}
+.img__container{
+    height: 100%;
+}
+.ellipsis{
+    width: 21px;
+ 
+    padding-top: 4px;
+  
 }
 .outside__container{    
     position:relative;
@@ -107,9 +121,9 @@
     }
     .card__info{
         height: 122px;
-        padding:1rem;
-        padding-bottom: 1rem;
-        width:100%;
+        padding:28px 24px;
+       
+        width:327px;
     }
     .card-currentTime{
         font-size:2rem;
@@ -124,7 +138,10 @@
     .card-title{
         font-size:1.12;
         font-weight:500;
-
+        
     }
 
+    .title__container{
+        padding-bottom:0.4rem;
+    }
 }

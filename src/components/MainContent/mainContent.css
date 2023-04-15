@@ -11,6 +11,7 @@
   /*  overflow: hidden;*/
     border-bottom-left-radius:  20px;
     border-bottom-right-radius:  20px;
+   height:518px;
    
    
 
@@ -48,6 +49,7 @@
 }
 .prof-pic{
    width:40px;
+
 }
 
 .firstName{
@@ -61,7 +63,8 @@
 
    
     
-    padding-top:40px;
+    padding-top:20px;
+    padding-bottom:20px;
     padding-left:1rem;
     gap:1rem;
     border-bottom-left-radius: 15px;
@@ -72,14 +75,18 @@
 }
 .timeframe__navigation button{
     display: block;
-    padding:0.6rem;
-    font-weight: 500;
+   padding:0.3rem;
+    font-weight: 400;
     font-size:1.12rem;
     background-color:transparent;
-    color:white;
+    color:#BBC0FF;
     border:0;
     text-align: left;
 }
+.timeframe__navigation button:hover{
+  color: white;
+}
+
 
 
 
@@ -94,8 +101,12 @@
     width: 100%;
 
   }
+  .name__container{
+    height: fit-content;
+  }
   .timeframe__navigation{
     grid-template-columns: 1fr 1fr 1fr;
+  
   }
   .profile__info{
     grid-template-columns: 1fr 2fr;

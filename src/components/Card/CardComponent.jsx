@@ -2,6 +2,7 @@ import React from 'react'
 import './card-component.css'
 import data from '../../data.json'
 import ExerciseIcon from '../../images/icon-exercise.svg'
+import Ellipsis from '../../images/icon-ellipsis.svg'
 
 
 const CardComponent = (props) => {
@@ -65,10 +66,15 @@ const CardComponent = (props) => {
 <div className={`outside__container ${cardClass}`}>
     
     <div className="card__info"  >
+      <div className='title__container'>
         <h1 className='card-title' >{title}</h1>
+        <div className='img__container'>
+        <img className="ellipsis" src={Ellipsis} alt="" />
+        </div>
+      </div>
         <div className='time-info'>
-        <p className='card-currentTime'>{current}{current>1?"hrs":"hr"}</p>
-        <p className='card-prevTime'>Last Week - {previous}hrs</p>
+        <p className='card-currentTime'>{current}{current===0?"":current>1?"hrs":"hr"}</p>
+        <p className='card-prevTime'>Last Week - {previous}{previous===0?"":previous>1?"hrs":"hr"}</p>
         </div>
 
     </div>

@@ -28,9 +28,8 @@ a{
 
 @media only screen and (max-width: 375px) {
   .container{
-    padding-top:130px;
-    padding-right:25px;
-    padding-left:25px;
+    padding:81px 24px;
+  
     
   }
 }
