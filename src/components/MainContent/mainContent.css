@@ -80,16 +80,7 @@
     border:0;
     text-align: left;
 }
-/*
-.information__container{
-    display: grid;
-    position:absolute;
-    
-    gap:1rem;
-    margin:1rem 1rem;
-  
-}
-*/
+
 
 
 @media only screen and (max-width: 375px) {
