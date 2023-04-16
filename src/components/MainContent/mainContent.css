@@ -85,6 +85,7 @@
 }
 .timeframe__navigation button:hover{
   color: white;
+  cursor: pointer;
 }
 
 

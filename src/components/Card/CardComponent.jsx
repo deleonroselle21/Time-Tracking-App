@@ -74,7 +74,7 @@ const CardComponent = (props) => {
       </div>
         <div className='time-info'>
         <p className='card-currentTime'>{current}{current===0?"":current>1?"hrs":"hr"}</p>
-        <p className='card-prevTime'>Last Week - {previous}{previous===0?"":previous>1?"hrs":"hr"}</p>
+        <p className='card-prevTime'>{props.previousTime} - {previous}{previous===0?"":previous>1?"hrs":"hr"}</p>
         </div>
 
     </div>

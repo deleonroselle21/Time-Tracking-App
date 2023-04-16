@@ -8,6 +8,7 @@ import ExerciseIcon from '../../images/icon-exercise.svg'
 const MainContent = () => {
 
     const [time,setTime]=React.useState("daily");
+    const [previousTime,setPreviousTime]=React.useState("Today");
     
      const picdata={
         Exercise:ExerciseIcon
@@ -15,12 +16,22 @@ const MainContent = () => {
 
   
     function handleChange(event){
-        if(event.target.name==="weekly")
+        if(event.target.name==="weekly"){
         setTime("weekly");
+        setPreviousTime("Last Week");
+        }
         if(event.target.name==="daily")
+        {
         setTime("daily");
+        setPreviousTime("Today");
+        }
+        
         if(event.target.name==="monthly")
+        {
         setTime("monthly");
+        setPreviousTime("Last Month");
+        
+        }
     console.log(time)
     }
 
@@ -45,7 +56,7 @@ const MainContent = () => {
         
       <div className="right__container">
             {
-                data.map(item=><CardComponent data={item} cardName={item.title} timeframe={time} pic={picdata}  /> )
+                data.map(item=><CardComponent data={item} cardName={item.title} timeframe={time} pic={picdata} previousTime={previousTime}  /> )
                 
             }
         </div>

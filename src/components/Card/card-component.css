@@ -51,6 +51,10 @@
    border-radius: 15px 15px 15px 15px;
    overflow: hidden;
 }
+.card__info:hover{
+    background-color:#33397A;
+    cursor: pointer;
+}
 
 .card-title{
     color:white;
