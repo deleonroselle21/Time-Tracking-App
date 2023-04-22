@@ -60,9 +60,15 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In doing this challenge, I learned how to create and a mobile responsive website using flex and grid with React framework
 
-To see how you can add code snippets, see below:
+Here is the solution that ive made to develop this challenge. 
+ 
+The challenge was  to switch between daily, weekly, and monthly. This was addressed by creating a usestate  that will hold the value of the selected timeframe and then passing this value to the cardcomponent that will create the card for each object . 
+
+Using event.target.name i was able to get the name of the selected element and used this to update the time variable and switch between daily, weekly, and monthly. 
+
+Data was retrieved from a local json file  using a  map function. 
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
