@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://deleonroselle21.github.io/Time-Tracking-App/)
 
 ## My process
 
@@ -87,7 +87,6 @@ function handleChange(event){
 - [React](https://reactjs.org/) - JS library
 
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 In doing this challenge, I learned how to create and a mobile responsive website using flex and grid with React framework
