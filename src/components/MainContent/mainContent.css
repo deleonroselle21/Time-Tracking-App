@@ -2,7 +2,7 @@
   
    /* height:518px;*/
     display: grid;
-    grid-template-columns: 265px 2fr;
+    grid-template-columns: 25% 1fr;/*265px 2fr;*/
     gap:1rem;
   
 }
@@ -123,5 +123,11 @@
     font-weight:300;
   }
 
+}
+
+@media only screen and (max-width: 926px) {
+.right__container{
+  gap:1rem;
+}
 }
 
