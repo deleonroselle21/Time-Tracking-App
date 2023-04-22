@@ -1,6 +1,6 @@
 .mainContent__container{
   
-    height:518px;
+   /* height:518px;*/
     display: grid;
     grid-template-columns: 265px 2fr;
     gap:1rem;
@@ -32,11 +32,11 @@
     background-color:hsl(246, 80%, 60%);
     padding:1rem 1rem 2rem;
     border-radius: 10px;
-  /*  height:280px;*/
+    height:67%;
     display: grid;
     
-    width:265px;
-    height:354px;
+   /* width:265px;
+    height:354px;*/
 
     
     
@@ -111,8 +111,8 @@
   }
   .profile__info{
     grid-template-columns: 1fr 2fr;
-    height: 133px;
-    width:327px;
+   /* height: 133px;
+    width:327px;*/
   }
   .firstName{
     font-size: 1.5rem;

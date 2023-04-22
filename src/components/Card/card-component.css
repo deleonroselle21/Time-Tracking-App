@@ -3,6 +3,7 @@
     background-image:url("../../images/icon-work.svg");
     background-position: top right 10px;
     background-repeat: no-repeat;
+    
 }
 .play__card{
     background-color: hsl(195, 74%, 62%);
@@ -91,12 +92,13 @@
     position:relative;
     height:100%;
    
-   width:255px;
-    overflow: hidden;
+   width:15.93rem;/*255px;*/
+   /* overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px;*/
+    border-radius:10px 10px 20px 20px;
 
 }
 .time-info{
@@ -111,8 +113,9 @@
 */
 @media only screen and (max-width: 375px) {
     .outside__container{
-        width:327px;
+       width:327px;
         height:160px;
+   
         
     }
     .time-info{
