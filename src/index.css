@@ -21,13 +21,11 @@ a{
   text-decoration: none;
 }
 
-/*
-- Mobile: 375px
-- Desktop: 1440px
-*/
 
-@media only screen and (max-width: 375px) {
+
+@media only screen and (max-width: 600px) {
   .container{
+    height:100%;
     padding:81px 24px;
   
     
