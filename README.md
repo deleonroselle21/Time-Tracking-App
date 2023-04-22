@@ -29,11 +29,13 @@ Users should be able to:
 - Switch between viewing Daily, Weekly, and Monthly stats
 
 ### Screenshot
+<<<<<<< HEAD
 <table>
 <tr>
 <td><img src="./mobileview_timetracking.png" width="300"  ></td>
 <td><img src="./desktopview_timetracking.png" width="300"  ></td>
 </table>
+
 
 
 ### Links
