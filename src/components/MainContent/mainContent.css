@@ -22,6 +22,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:1.5rem;
+    width:fit-content;
    
     
     
@@ -127,7 +128,7 @@
 
 @media only screen and (max-width: 926px) {
 .right__container{
-  gap:1rem;
+  gap:1.5rem;
 }
 }
 

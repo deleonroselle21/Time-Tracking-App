@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://deleonroselle21.github.io/Time-Tracking-App/)
+- Live Site URL: [Time Tracking App](https://deleonroselle21.github.io/Time-Tracking-App/)
 
 ## My process
 
