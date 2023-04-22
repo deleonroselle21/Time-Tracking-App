@@ -66,18 +66,26 @@ Using event.target.name i was able to get the name of the selected element and u
 In doing this challenge, I learned how to create and a mobile responsive website using flex and grid with React framework
 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
+```js
+function handleChange(event){
+        if(event.target.name==="weekly"){
+        setTime("weekly");
+        setPreviousTime("Last Week");
+        }
+        if(event.target.name==="daily")
+        {
+        setTime("daily");
+        setPreviousTime("Today");
+        }
+        
+        if(event.target.name==="monthly")
+        {
+        setTime("monthly");
+        setPreviousTime("Last Month");
+        
+        }
+ 
+    }
+```
 
