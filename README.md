@@ -50,6 +50,33 @@ The challenge was  to switch between daily, weekly, and monthly. This was addres
 
 Using event.target.name i was able to get the name of the selected element and used this to update the time variable and switch between daily, weekly, and monthly. 
 
+```js
+const [time,setTime]=React.useState("daily");
+    const [previousTime,setPreviousTime]=React.useState("Today");
+```
+```js
+
+function handleChange(event){
+        if(event.target.name==="weekly"){
+           setTime("weekly")
+           setPreviousTime("Last Week")
+        }
+
+        if(event.target.name==="daily")
+        {
+           setTime("daily");
+           setPreviousTime("Today");
+        }
+        
+        if(event.target.name==="monthly")
+        {
+           setTime("monthly");
+           setPreviousTime("Last Month");
+         }
+ 
+    }
+```
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -67,25 +94,5 @@ In doing this challenge, I learned how to create and a mobile responsive website
 
 
 
-```js
-function handleChange(event){
-        if(event.target.name==="weekly"){
-        setTime("weekly");
-        setPreviousTime("Last Week");
-        }
-        if(event.target.name==="daily")
-        {
-        setTime("daily");
-        setPreviousTime("Today");
-        }
-        
-        if(event.target.name==="monthly")
-        {
-        setTime("monthly");
-        setPreviousTime("Last Month");
-        
-        }
- 
-    }
-```
+
 
